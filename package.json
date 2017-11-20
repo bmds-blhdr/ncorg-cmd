@@ -1,0 +1,30 @@
+{
+  "name": "ncorg-cmd",
+  "version": "1.0.0",
+  "description": "A simple command line tool for interacting with neocities.",
+  "main": "ncorg-cmd.js",
+  "bin": "./ncorg-cmd.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	 "start": "node ./ncorg-cmd"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bmds-blhdr/neocities.git"
+  },
+  "keywords": [
+    "neocities",
+    "cli"
+  ],
+  "author": "Benoît Mendousse",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bmds-blhdr/neocities/issues"
+  },
+  "homepage": "https://github.com/bmds-blhdr/neocities#readme",
+  "dependencies": {
+    "bluebird": "^3.5.1",
+    "glob": "^7.1.2",
+    "neocities": "0.0.3"
+  }
+}
